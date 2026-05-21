@@ -70,15 +70,20 @@
 #         print("*", end="")
 #     print("") 
 
-f = int(input("enter your number : "))
-for row in range (1,f+1):
-    if ( row%2 !=0 ):
-        print("*"* (f), end="")
-    else:
-        for col in range (1,f+1):
-            if col % 2 !=0:
-                print("*", end="")
-            else:
-                print(" ", end="")
-       
-    print("") 
+# f = int(input("enter your number : "))
+# for row in range (1,f+1):
+#     if ( row%2 != 0 ):
+#         print("*"* (f), end="")
+#     else:
+#         for col in range (1,f+1):
+#             if col % 2 !=0:
+#                 print("*", end="")
+#             else:
+#                 print(" ", end="")
+#     print("") 
+
+n = int(input("enter your number : "))
+
+for i in range( 1,11 ):
+    print(f"{n} X {i} = {n*i}")
+    print(f"{n} X {11-i} = {n*(11-i)}")
